@@ -1,0 +1,131 @@
+* {
+    font-family: 'Roboto Slab', serif;
+}
+
+
+body {
+    margin: 0;
+}
+
+.body-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+/* SIDEBAR */
+.logo {
+    margin-bottom: 5em;
+    margin-top: 15px;
+
+    font-weight: bolder;
+}
+
+.side-bar {
+    background-color: lightskyblue;
+    height: 100vh;
+
+    color: white;
+
+}
+
+.list {
+    display: flex;
+
+    margin-bottom: 15px;
+}
+
+.first-list {
+    margin-bottom: 5em;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding-left: 15px;
+}
+
+/* END OF SIDEBAR */
+
+
+/*NAVBAR  */
+#body {
+    grid-column-start: 2;
+    grid-column-end: 7;
+}
+
+.search-bar {
+    margin-top: 20px;
+}
+
+.search {
+    border: none;
+    border-radius: 28px;
+    background-color: lightslategray;
+    height: 1.8em;
+    color: white;
+}
+
+.navbar {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bolder;
+    margin-bottom: 2em;
+}
+
+.profile-items {
+    display: flex;
+    gap: 1rem;
+}
+
+.profile-pic {
+    border: 1px solid white;
+    border-radius: 40px;
+}
+
+.greetings-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.greetings {
+    display: flex;
+    gap: 1.8em;
+}
+
+.name {
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.hi {
+    font-weight: bolder;
+}
+
+a {
+    background-color: lightskyblue;
+
+    border-radius: 28px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.8rem;
+    padding-right: 1em;
+    padding-left: 1em;
+    text-align: center;
+    margin-top: 5px;
+}
+
+a:hover,
+a:focus {
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    border: 1px solid rebeccapurple;
+}
+
+/* End of NAVBAR  */
+main {
+    background-color: lightslategray;
+}
+
+/* Main Body */
