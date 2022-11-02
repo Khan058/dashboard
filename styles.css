@@ -22,7 +22,7 @@ body {
 
 .side-bar {
     background-color: lightskyblue;
-    height: 100vh;
+    height: 120.5vh;
 
     color: white;
 
@@ -129,3 +129,71 @@ main {
 }
 
 /* Main Body */
+
+.main-body {
+    background-color: lightgrey;
+    height: 100vh;
+}
+
+
+
+.headings {
+    padding-top: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading {
+    padding-left: 5%;
+}
+
+.heading-1 {
+    padding-right: 13.5%;
+}
+
+.cards-annoucements {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(2, 46%);
+    gap: 2em;
+    padding-left: 5%;
+
+}
+
+.cards {
+    background-color: white;
+    text-align: center;
+    border-left: 5px solid yellow;
+    border-radius: 10px;
+}
+
+.card-buttons {
+    display: flex;
+    justify-content: right;
+    gap: 1em;
+    padding-right: 10%;
+    padding-bottom: 3%;
+}
+
+.annoucements {
+    padding-right: 5%;
+    width: 70%;
+}
+
+.anno-cards {
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.anno-text {
+    padding-left: 5%;
+    padding-right: 5%;
+}
