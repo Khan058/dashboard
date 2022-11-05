@@ -21,16 +21,16 @@ body {
 }
 
 .side-bar {
-    background-color: lightskyblue;
+    background-color: rgb(198, 227, 244);
     height: 120.5vh;
-
+    box-shadow: 0 4px 8px 0 rgba(7, 35, 244, 0.2), 0 6px 20px 0 rgba(243, 6, 6, 0.19);
     color: white;
 
 }
 
 .list {
     display: flex;
-
+    color: white;
     margin-bottom: 15px;
 }
 
@@ -46,6 +46,15 @@ ul {
     padding-left: 15px;
 }
 
+.list:hover,
+.list:focus {
+    border: 5px solid rgb(236, 241, 241);
+    border-radius: 28px;
+    width: 60%;
+    background-color: lightgray;
+    font-size: 1.5rem;
+}
+
 /* END OF SIDEBAR */
 
 
@@ -53,6 +62,10 @@ ul {
 #body {
     grid-column-start: 2;
     grid-column-end: 7;
+}
+
+.full-navbar {
+    box-shadow: 0 4px 8px 0 rgba(244, 7, 7, 0.2), 0 6px 20px 0 rgba(243, 6, 6, 0.19);
 }
 
 .search-bar {
@@ -80,9 +93,26 @@ ul {
     gap: 1rem;
 }
 
+.notification {
+    cursor: pointer;
+}
+
+.name:hover,
+.name:focus {
+    border: 5px solid lightgray;
+    border-radius: 28px;
+    cursor: pointer;
+    background-color: rgba(173, 216, 230, 0.413);
+}
+
 .profile-pic {
     border: 1px solid white;
     border-radius: 40px;
+}
+
+.profile-pic:hover,
+.profile-pic:focus {
+    cursor: pointer;
 }
 
 .greetings-buttons {
@@ -105,6 +135,10 @@ ul {
 }
 
 a {
+    text-decoration: none;
+}
+
+div>a {
     background-color: lightskyblue;
 
     border-radius: 28px;
@@ -117,8 +151,8 @@ a {
     margin-top: 5px;
 }
 
-a:hover,
-a:focus {
+div>a:hover,
+div>a:focus {
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
     border: 1px solid rebeccapurple;
 }
@@ -131,7 +165,8 @@ main {
 /* Main Body */
 
 .main-body {
-    background-color: lightgrey;
+    background-color: rgb(201, 247, 230);
+    box-shadow: 0 4px 8px 0 rgba(77, 89, 231, 0.2), 0 6px 20px 0 rgba(54, 119, 231, 0.19);
     height: 100vh;
 }
 
@@ -167,8 +202,11 @@ main {
 .cards {
     background-color: white;
     text-align: center;
-    border-left: 5px solid yellow;
+    border-left: 5px solid rgb(9, 11, 160);
     border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(47, 47, 48, 0.2), 0 6px 20px 0 rgba(58, 58, 60, 0.433);
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .card-buttons {
@@ -191,6 +229,7 @@ main {
     padding-bottom: 5%;
     margin-bottom: 2em;
     text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(47, 47, 48, 0.2), 0 6px 20px 0 rgba(58, 58, 60, 0.433);
 }
 
 .anno-text {
